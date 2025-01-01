@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,white)
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: larger;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+}
+
+.a{
+ color: green;
+ font-size: 50px;
+}
+.b{
+    color: rgb(183, 255, 0);
+    font-size: 50px;
+}
+.c{
+    color: blue;
+    font-size: 50px;
+}
+.d{
+  font-size: 50px;
+}
+.e{
+    color: green;
+    font-size: 50px;
+}
+.f{
+    color: blue;
+    font-size: 50px;
+}
+.btn::hover{
+    color: rgb(0, 255, 13);
+    background-color: blue;
+}
+
+/*BY ALIAR - 01-01-2025 */
